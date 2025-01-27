@@ -3,11 +3,11 @@ import React from "react";
 const HomePage = () => {
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header */}
+      
       <header className="bg-white shadow-sm py-4">
         <div className="container mx-auto flex justify-between items-center px-6">
           <div className="text-xl font-semibold text-gray-800">
-            <span className="text-blue-700 font-bold">PeerCollab</span>
+            <span className="text-blue-700 font-bold">AcademiX</span>
           </div>
           <div>
             <button className="px-4 py-2 text-gray-700 border border-gray-300 rounded-md mr-4 hover:bg-gray-100">
@@ -20,7 +20,7 @@ const HomePage = () => {
         </div>
       </header>
 
-      {/* Hero Section */}
+      
       <section className="bg-white text-center py-20">
         <div className="container mx-auto px-6">
           <h1 className="text-5xl font-extrabold text-gray-800 leading-tight">
@@ -41,7 +41,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Features Section */}
+      
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-gray-800 text-center">
@@ -51,7 +51,7 @@ const HomePage = () => {
             Discover the features that make our platform unique and effective.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {/* Feature Cards */}
+            
             <div className="bg-white shadow-md rounded-lg p-6 text-center">
               <div className="text-blue-700 text-4xl mb-4">
                 <i className="fas fa-user-friends"></i>
