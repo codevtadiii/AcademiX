@@ -1,13 +1,8 @@
 import React from "react";
-<<<<<<< HEAD
+
 import LandingPage from "./components/LandingPage";  
 
-function App() {
-  return (
-    <div>
-      <LandingPage />
-    </div>
-=======
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./components/HomePage";
 import LoginPage from "./components/loginpage";
@@ -36,7 +31,7 @@ function App() {
         <Route path="/account-management" element={<AccountManagement />} />  {/* New route for AccountManagement */}
       </Routes>
     </Router>
->>>>>>> 3836c3f (Your commit message)
+
   );
 }
 
