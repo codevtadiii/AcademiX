@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-=======
 import React from "react";
 import { useNavigate } from "react-router-dom";
+
 
 const HomePage = () => {
   const navigate = useNavigate(); // React Router navigation function
@@ -113,4 +112,4 @@ const HomePage = () => {
 };
 
 export default HomePage;
->>>>>>> 3836c3f (Your commit message)
+
